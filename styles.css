@@ -7,3 +7,22 @@
  .light-bold{
     color: #000000;
  }
+ .banner-text{
+    max-width: 517px;
+ }
+ .text-color-orange{
+    color: #E95A08;
+ }
+ .banner-desc{
+    color: #000000;
+ }
+ .btn-primary{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    border-radius: 2px;
+    width: 80%;
+    height: 50px;
+ }
+ .text-color-2{
+    color: #111111;
+ }
