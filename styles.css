@@ -26,3 +26,11 @@
  .text-color-2{
     color: #111111;
  }
+ .badge{
+    position: relative;
+    top:100px;
+    left: 20px;
+ }
+ .container{
+    
+ }
