@@ -31,6 +31,10 @@
     top:100px;
     left: 20px;
  }
- .container{
-    
+ .one{
+     width: 366px;
+     height: 206;
+ }
+ .text-white{
+    color: #FFFFFF;
  }
