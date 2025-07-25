@@ -38,3 +38,55 @@
  .text-white{
     color: #FFFFFF;
  }
+
+ /* responsive design */
+
+ @media screen and  (max-width: 640px){
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner-img{
+        width: 50rem;
+        height: 20rem;
+    }
+    .banner-title{
+      width: 517px;
+      height: 90px;
+    }
+    .banner-div{
+        margin-left: 120px;
+        margin-top: -5px;
+    }
+    .banner-desc{
+    color: #000000;
+    text-align: center;
+    
+    
+ }
+ .section-one{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-left: 10px;
+ } 
+ 
+ .section-one-img{
+    width: 260px;
+ }
+ 
+ .our-love{
+    
+    flex-direction: column;
+ }
+ .our-love-img-one{
+    width: 220%;
+    margin-left: 110px;
+    margin-right: 140px;
+ }
+ .our-love-h3{
+    font-size: 40px;
+ }
+ .our-love-li{
+    margin-left: 110px;
+ }
+ }
