@@ -42,11 +42,12 @@
  /* responsive design */
 
  @media screen and  (max-width: 640px){
+    
     .banner{
         flex-direction: column-reverse;
     }
     .banner-img{
-        width: 50rem;
+        width: 45rem;
         height: 20rem;
     }
     .banner-title{
@@ -58,6 +59,12 @@
         margin-top: -5px;
     }
     .banner-desc{
+    color: #000000;
+    text-align: center;
+    
+    
+ }
+ .banner-desc-one{
     color: #000000;
     text-align: center;
     
@@ -88,5 +95,54 @@
  }
  .our-love-li{
     margin-left: 110px;
+ }
+ .text-center{
+    text-align:center;
+ }
+ .text-center-two{
+    text-align: center;
+ }
+ .latest-deal{
+    flex-direction: column;
+    margin-left: 30px;
+ }
+ .latest-deal-one{
+    width: 580px;
+    height: 350px;
+ }
+ .latest-deal-one-text{
+    font-size:xx-large;
+ }
+ .join{
+    background-image: src('url(assets/news-letter-bg.png)');
+    width: 40rem;
+ }
+ .join-text{
+    
+    text-align:center;
+    font-size: 30px;
+ }
+ .join-text-input{
+    max-width: 280px;
+    height: 40px;
+ }
+ .join-text-input-red{
+    max-width: 140px;
+ }
+ .footer{
+    flex-direction: column;
+    margin-left: 35px;
+ }
+ .footer-one{
+    flex-direction: column;
+ }
+ .footer-logo{
+    width: 200px;
+    height: 100px;
+ }
+ .footer-text{
+    width: 260px;
+    height: 50px;
+    color: #000000;
  }
  }
